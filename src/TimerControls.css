@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     max-width: 850px;
     min-width: 200px;
-    gap:20px;
+    gap:10px;
     flex-wrap:wrap;
    background-color: rgba(214, 214, 214, 0.671);
-   padding: 20px;
+   padding: 15px;
    border-radius: 10px;
 }
 .bt{
@@ -53,4 +54,9 @@
 
 .deleteBt:hover{
     color: red;
+}
+@media screen and (max-width: 767px) {
+    .client{
+        flex-direction:column;
+    }
 }
