@@ -1,14 +1,23 @@
 .App{
-  width: 1024px;
+  width: 80%;
   background-color: rgb(255, 255, 255);
-  height: 1000px;
-  margin: 0 auto;
+  height: auto;
+  margin: auto auto;
   padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
 }
 .liste{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   padding: 20px;margin-top: 30px;
   margin-bottom: 70px;
 }
@@ -27,6 +36,7 @@
   color: rgb(37, 37, 37);
 }
 .App>p{
-  
+  text-align: center;
+  margin-top: 20px;
   
 }
