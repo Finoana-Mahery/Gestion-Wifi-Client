@@ -9,9 +9,9 @@
     
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build": "electron-builder,vite build"
+    "build": "vite build"
   },
-  "start": "electron .",
+  
   
   "dependencies": {
     "react": "^18.2.0",
@@ -22,8 +22,7 @@
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
-    "electron": "^27.0.2",
-    "electron-builder": "^24.6.4",
+    
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
